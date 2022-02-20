@@ -71,3 +71,12 @@ The number of pixels to skip each window. Typically set to 2(produces no overlap
 
 Now this is the same concept as stride with convolution 
 
+The benefit of having the stride and the spatial extent be the samr number is that produces
+ no overlap and no missing pixels.So we're not losing anything and we're not having any overlap.
+ 
+ It is also possible to have the stride smaller than the kernel , and that creates some ovelapping wondows that is less common.
+
+<img width="414" alt="pooling" src="https://user-images.githubusercontent.com/95547363/154861573-f2b71938-582f-4473-9434-dfa6d57286e9.png">
+
+
+
