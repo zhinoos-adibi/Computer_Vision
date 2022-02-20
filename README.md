@@ -79,6 +79,13 @@ The benefit of having the stride and the spatial extent be the samr number is th
 
 <img width="595" alt="image" src="https://user-images.githubusercontent.com/95547363/154861775-a6cfe899-fe3a-461d-9d31-60c0d0ddffc0.png">
 
+![image](https://user-images.githubusercontent.com/95547363/154861909-b4c02e36-7243-4e78-8f4c-c8275ebc1d61.png)
+
+In the below picture which stride is smaller than kernel we can see overlapping,that means it's possible to have some redundancy in these two values:
+
+![image](https://user-images.githubusercontent.com/95547363/154862048-38e516ba-b1c9-4ef2-ba82-880718be1612.png)
+
+
 
 
 
