@@ -76,7 +76,8 @@ The benefit of having the stride and the spatial extent be the samr number is th
  
  It is also possible to have the stride smaller than the kernel , and that creates some ovelapping wondows that is less common.
 
-<img width="414" alt="pooling" src="https://user-images.githubusercontent.com/95547363/154861573-f2b71938-582f-4473-9434-dfa6d57286e9.png">
+
+<img width="414" alt="pooling" src="https://user-images.githubusercontent.com/95547363/154861710-7c007253-2132-48cf-8021-945617d2955f.png">
 
 
 
