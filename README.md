@@ -85,6 +85,7 @@ In the below picture which stride is smaller than kernel we can see overlapping,
 
 ![image](https://user-images.githubusercontent.com/95547363/154862048-38e516ba-b1c9-4ef2-ba82-880718be1612.png)
 
+**Transforming the image**
 
 
 **The reasons to transform images**
