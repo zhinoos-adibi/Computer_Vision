@@ -87,7 +87,10 @@ In the below picture which stride is smaller than kernel we can see overlapping,
 
 
 
+**The reasons to transform images**
 
+Some times CNN's pre-trained model can apply image with special propeties .
+Some times transform the image without changing the information of the image ficilitate the model training process.
 
 
 
