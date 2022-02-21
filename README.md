@@ -92,3 +92,4 @@ In the below picture which stride is smaller than kernel we can see overlapping,
 
 
 
+
