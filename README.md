@@ -94,6 +94,19 @@ Some times CNN's pre-trained model can apply image with special propeties .
 Some times transform the image without changing the information of the image ficilitate the model training process.
 
 
+**Creating and using custom DataSets**
+You van imagine DataLoader like a box wich contains data.where these datas comefrom.
+ 
+ to get the data into the data loader box ,we first transform the data into a data set.so 
+ 
+ usually the procedure that we've been following is we start with our data in numpy format and then we have to transform it into a pytorch tensor.And then we transform that tensor into a dataset object , which contains a tuple of data with the data tensor and all of the corresponding labels also stored as tensor.And then we take this data set object and import that into the data loader.what do we do with the data in data loader?The most common thaing that we do is we pull out minibatches.
+ 
+ taking minibatch from the data loader box is a kind of like reaching your hand here and pulling out the small sample of data.Data loader contains all of the data and maybe we pull out only 16 data samples and corresponding labels.
+ 
+ ![image](https://user-images.githubusercontent.com/95547363/155129776-9bb186d9-e9f9-46eb-b831-afec41697921.png)
 
 
 
+![image](https://user-images.githubusercontent.com/95547363/155130020-2314919b-98b9-4b24-a16e-db0d78ef5506.png)
+
+step one in two can be combined if you are importing the torch vision data set.
