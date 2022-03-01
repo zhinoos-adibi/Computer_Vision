@@ -96,7 +96,7 @@ Some times transform the image without changing the information of the image fic
 
 
 **Creating and using custom DataSets**
-You van imagine DataLoader like a box wich contains data.where these datas comefrom.
+You can imagine DataLoader like a box wich contains data.where these datas comefrom.
  
  to get the data into the data loader box ,we first transform the data into a data set.so 
  
