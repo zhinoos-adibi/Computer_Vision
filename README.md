@@ -43,6 +43,7 @@ pooling is not formally part of Convolution , but pooling is often done immediat
 Max pooling and mean pooling are common. Pooling also allows us to select feature and identify features in an image over broader spatial area and this is because pooling increases the receptive field size of the model .We actually apply pooling multiple time in a CNN model. And that's because as we go deeper into the CNN ,we want to have fewer pixels. Max pooling is useful because it highlights the sharp features. This is often use for increasing the constant when you have large difference in pixel intensity values between neighboring pixels.
 
 In brief Max or Mean pooling?
+
 Max Pooling :
 
 Highlight sharp features.
