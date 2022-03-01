@@ -111,3 +111,33 @@ You can imagine DataLoader like a box wich contains data.where these datas comef
 ![image](https://user-images.githubusercontent.com/95547363/155130020-2314919b-98b9-4b24-a16e-db0d78ef5506.png)
 
 step one in two can be combined if you are importing the torch vision data set.
+
+
+
+
+**Understanding and design CNNs(Convolutional neural networks)**
+
+CNNs are very important in the development of image processing and computer vision
+
+**canonical CNN architecture**
+
+Three types of layers in a CNN:
+
+Convolution: learn filters (kernels)to create features maps through back propagition.
+
+
+pooling : Reduce dimensionality and increase receptive field size.
+
+
+Fully connected :prediction(categorical and/or continuous)
+
+
+
+
+![image](https://user-images.githubusercontent.com/95547363/156172004-364e3ded-1534-4e93-b985-769513a705b8.png)
+
+
+
+
+
+
