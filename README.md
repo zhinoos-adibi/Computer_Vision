@@ -124,6 +124,7 @@ step one in two can be combined if you are importing the torch vision data set.
 
 ## COURSE URL: udemy.com/course/dudl/?couponCode=202108
 
+------------------------------------------------------------------
 
 **-Understanding and design CNNs(Convolutional neural networks)**
 
