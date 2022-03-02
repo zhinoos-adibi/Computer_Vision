@@ -180,7 +180,7 @@ again we are shaving off one pixel just like we did before .
 So we are shaving off one pixel from the boundary and that reduces the image size And then we have MaxPool2 ,which 
 also has the resolution in terms of the width and height.
 
-So you can see whta's happening here as we go through these layers , we go deeprt into the model and the image resolution is reducing at every step.we go from 26 down to 5 X 5.
+So you can see whta's happening here as we go through these layers , we go deeper into the model and the image resolution is reducing at every step.we go from 26 down to 5 X 5.
 
 Now from Maxpool layer ,we go to a fully connected network.
 
