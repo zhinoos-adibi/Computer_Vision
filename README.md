@@ -112,14 +112,24 @@ You can imagine DataLoader like a box wich contains data.where these datas comef
 
 step one in two can be combined if you are importing the torch vision data set.
 
+# Next Part
+
+## COURSE: A deep understanding of deep learning
 
 
+## SECTION: Understand and design CNNs
 
-**Understanding and design CNNs(Convolutional neural networks)**
+
+## TEACHER: Mike X Cohen, sincxpress.com
+
+## COURSE URL: udemy.com/course/dudl/?couponCode=202108
+
+
+**-Understanding and design CNNs(Convolutional neural networks)**
 
 CNNs are very important in the development of image processing and computer vision
 
-**canonical CNN architecture**
+**Canonical CNN architecture**
 
 Three types of layers in a CNN:
 
@@ -138,6 +148,19 @@ Fully connected :prediction(categorical and/or continuous)
 
 
 
+# CNN to Classify MNIST digits.
 
+** MNIST Description**
 
+The MNIST dataset is an acronym that stands for the Modified National Institute of Standards and Technology dataset. It is a dataset of 60,000 small square 28×28 pixel grayscale images of handwritten single digits between 0 and 9.
 
+It's realy impoertant to know all of the different sizes of the images as they passing through each layer of the models.
+
+**what the architecture of CNN model looks like.**
+
+![image](https://user-images.githubusercontent.com/95547363/156320619-c7a5feda-254e-44d7-826d-9b79d9949f29.png)
+
+Input images are 28 X 28 with one channels as these are  grayscale images.
+As you see in the above picture we have convolution -pool blocks and in the end we have fully concted layer.Conv1 as you see in the picrure is (10 X 26 X 26) which 10 here corresponds to the number of features maps,which also correspond to the number of convolutional filter kernels that we will create.These are initialy set to random numbers and then they are learned and they are shaped through back propagition.So 10 layers and 26 X 26 pixel means we are shaving off one pixel from the edge,so one pixel from the left , one from the right and so on top and bottom and that gives us 26 x 26.Then we apply max pooling to this to the output of this convolutional layer thta preserves the number of feature maps.
+we rduce the dimension in the individua unit in maxpool1 layer.
+Now we go to conv2 layer(20 X 11 X 11) so twenty means we have twenty features maps or twenty convolutional kernels that the model is going to learn and then 11 x 11 means again we are shaving off one pixel just like we did before .So we are shaving off one pixel from the boundary and that reduces the image size And then we have MaxPool2 ,which also has the resolution in terms of the width and height.So you can see whta's happening here as we go through these layers , we go deeprt into the model and the image resolution is reducing at every step.we go from 26 down to 5 X 5.Now from Maxpool layer ,we go to a fully connected network.
