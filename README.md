@@ -163,11 +163,9 @@ The MNIST dataset is an acronym that stands for the Modified National Institute 
 
 Input images are 28 X 28 with one channels as these are  grayscale images.
 
-As you see in the above picture we have convolution -pool blocks and in the end we have fully concted layer.Conv1 as you see in the picrure is (10 X 26 X 26) which 10 here
+As you see in the above picture we have convolution -pool blocks and in the end we have fully concted layer.
 
-corresponds to the number of features maps,which also correspond to the number of convolutional filter kernels that we will create.These are initialy set to random numbers and
-
-then they are learned and they are shaped through back propagition.
+Conv1 as you see in the picrure is (10 X 26 X 26) which 10 here corresponds to the number of features maps,which also correspond to the number of convolutional filter kernels that we will create.These are initialy set to random numbers and then they are learned and they are shaped through back propagition.
 
 So 10 layers and 26 X 26 pixel means we are shaving off one pixel from the edge,so one pixel from the left , one from the right and so on top and bottom and that gives us 26 x 26.
 
@@ -175,10 +173,10 @@ Then we apply max pooling to this to the output of this convolutional layer thta
 
 we rduce the dimension in the individua unit in maxpool1 layer.
 
-Now we go to conv2 layer(20 X 11 X 11) so twenty means we have twenty features maps or twenty convolutional kernels that the model is going to learn and then 11 x 11 means 
+Now we go to conv2 layer(20 X 11 X 11) so twenty means we have twenty features maps or twenty convolutional kernels that the model is going to learn and then 11 x 11 means
+again we are shaving off one pixel just like we did before .
 
-again we are shaving off one pixel just like we did before .So we are shaving off one pixel from the boundary and that reduces the image size And then we have MaxPool2 ,which 
-
+So we are shaving off one pixel from the boundary and that reduces the image size And then we have MaxPool2 ,which 
 also has the resolution in terms of the width and height.
 
 So you can see whta's happening here as we go through these layers , we go deeprt into the model and the image resolution is reducing at every step.we go from 26 down to 5 X 5.
@@ -186,5 +184,6 @@ So you can see whta's happening here as we go through these layers , we go deepr
 Now from Maxpool layer ,we go to a fully connected network.
 
 How do we connect all of these units to this fully connected layer?This is a vector of 50 units.how we go from macpool2(20X5X5)shape to fc1(1X50)shape?the answewr is we just 
+linearize the output of the maxpool.
 
-linearize the output of the maxpool.we have 10 units in the output layer because this is the most digits data set, so there are 10 categories in total.
+we have 10 units in the output layer because this is the most digits data set, so there are 10 categories in total.
