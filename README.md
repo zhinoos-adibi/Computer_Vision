@@ -150,13 +150,14 @@ Fully connected :prediction(categorical and/or continuous)
 
 # CNN to Classify MNIST digits.
 
-** MNIST Description**
+**Note :  MNIST Description**
 
 The MNIST dataset is an acronym that stands for the Modified National Institute of Standards and Technology dataset. It is a dataset of 60,000 small square 28×28 pixel grayscale images of handwritten single digits between 0 and 9.
 
-It's realy impoertant to know all of the different sizes of the images as they passing through each layer of the models.
 
-**what the architecture of CNN model looks like.**
+
+
+*What the architecture of CNN model looks like.**
 
 ![image](https://user-images.githubusercontent.com/95547363/156320619-c7a5feda-254e-44d7-826d-9b79d9949f29.png)
 
