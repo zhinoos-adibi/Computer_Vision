@@ -201,3 +201,8 @@ Good refrence for more information about kernel and pooling:
 https://towardsdatascience.com/a-comprehensive-guide-to-convolutional-neural-networks-the-eli5-way-3bd2b1164a53
 
 
+**More concept and descriptino from the above mentioned site:**
+
+ The role of the ConvNet is to reduce the images into a form which is easier to process, without losing features which are critical for getting a good prediction.
+ 
+ The objective of the Convolution Operation is to extract the high-level features such as edges, from the input image
