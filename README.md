@@ -205,4 +205,22 @@ https://towardsdatascience.com/a-comprehensive-guide-to-convolutional-neural-net
 
  The role of the ConvNet is to reduce the images into a form which is easier to process, without losing features which are critical for getting a good prediction.
  
- The objective of the Convolution Operation is to extract the high-level features such as edges, from the input image
+ The objective of the Convolution Operation is to extract the high-level features such as edges, from the input image.
+ 
+ **Other pictures from various resources which help to understanding the CNN's architecture.**
+ 
+ ![image](https://user-images.githubusercontent.com/95547363/156652599-6e79ec5e-e87c-4f50-ad46-ad1be842d992.png)
+
+------------------------------------------------------------------------------------------------
+
+
+![image](https://user-images.githubusercontent.com/95547363/156652638-ab764211-2582-498a-b11f-75a84ee8b4a9.png)
+
+-------------------------------------------------------------------------------------------------
+
+
+![image](https://user-images.githubusercontent.com/95547363/156652746-99898502-b908-4f49-b862-7dcf2af23520.png)
+
+
+----------------------------------------------------------------------------------------------------------
+
