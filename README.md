@@ -188,3 +188,9 @@ How do we connect all of these units to this fully connected layer?This is a vec
 linearize the output of the maxpool.
 
 we have 10 units in the output layer because this is the most digits data set, so there are 10 categories in total.
+
+The corresponding code for above description is avaiable as below link:
+
+https://github.com/zhinoos-adibi/Deep-Learning-based-Computer_Vision/blob/main/DUDL_CNN_CNN4MNIST.ipynb
+
+
