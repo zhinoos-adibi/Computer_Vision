@@ -194,4 +194,11 @@ The corresponding code for above description is avaiable as below link:
 
 https://github.com/zhinoos-adibi/Deep-Learning-based-Computer_Vision/blob/main/DUDL_CNN_CNN4MNIST.ipynb
 
+---------------------------------------------------------------------------------------------------------
 
+Good refrence for more information about kernel and pooling:
+
+https://towardsdatascience.com/a-comprehensive-guide-to-convolutional-neural-networks-the-eli5-way-3bd2b1164a53
+
+
+https://towardsdatascience.com/a-comprehensive-guide-to-convolutional-neural-networks-the-eli5-way-3bd2b1164a53
