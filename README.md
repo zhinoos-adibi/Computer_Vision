@@ -196,6 +196,49 @@ The corresponding code for above description is avaiable as below link:
 
 https://github.com/zhinoos-adibi/Deep-Learning-based-Computer_Vision/blob/main/DUDL_CNN_CNN4MNIST.ipynb
 
+-------------------------------------------------------------------------------
+
+**Some expression which we should know in deploymengt of neural networks in coding:**
+
+**Refrence is :https://github.com/python-engineer/pytorchTutorial/blob/master/09_dataloader.py**
+
+
+ gradient computation etc. not efficient for whole data set
+ 
+ -> divide dataset into small batches
+
+'''
+**training loop**
+for epoch in range(num_epochs):
+
+    **loop over all batches**
+    
+    for i in range(total_batches):
+    
+        batch_x, batch_y = ...
+'''
+
+ epoch = one forward and backward pass of ALL training samples
+
+ batch_size = number of training samples used in one forward/backward pass
+
+ number of iterations = number of passes, each pass (forward+backward) using [batch_size] number of sampels
+
+ e.g : 100 samples, batch_size=20 -> 100/20=5 iterations for 1 epoch
+
+ --> DataLoader can do the batch computation for us
+
+ Implement a custom Dataset:
+
+ inherit Dataset
+
+ implement __init__ , __getitem__ , and __len__
+ 
+
+some famous datasets are available in torchvision.datasets
+
+ e.g. MNIST, Fashion-MNIST, CIFAR10, COCO
+ 
 ---------------------------------------------------------------------------------------------------------
 
 Good refrence for more information about kernel and pooling:
