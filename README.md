@@ -325,3 +325,4 @@ is similar to the mean filter, but it uses a different kernel that represents th
 ![image](https://user-images.githubusercontent.com/95547363/158394312-47fc2b8f-38e4-4c17-a014-0f609745267b.png)
 
 
+<img width="799" alt="image" src="https://user-images.githubusercontent.com/95547363/158485160-a311ace6-9218-4526-8ae5-82cb9ceca2ab.png">
