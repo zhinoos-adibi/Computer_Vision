@@ -326,3 +326,17 @@ is similar to the mean filter, but it uses a different kernel that represents th
 
 
 <img width="799" alt="image" src="https://user-images.githubusercontent.com/95547363/158485160-a311ace6-9218-4526-8ae5-82cb9ceca2ab.png">
+
+
+It is common that with increasing depth in the CNN architecture , you decrease the pixel resolution.
+
+while simultaneously increasing the representational resolution or the number of kernels that we are learning.
+
+The goal of Convolutional and Max players is to do image processing.
+
+The idea is to transform the image into sets of feature representations where the features are learned through back propagation .
+
+All of that decision making and categorization stuff happens in the fully connected layers at the end.
+
+![image](https://user-images.githubusercontent.com/95547363/158486121-290c2652-ca2f-4f58-b64f-7feca1dca52f.png)
+
