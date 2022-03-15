@@ -316,4 +316,12 @@ https://towardsdatascience.com/a-comprehensive-guide-to-convolutional-neural-net
 
 
 ----------------------------------------------------------------------------------------------------------
+What is 2D Gaussians?
+
+Brief Description. The Gaussian smoothing operator is a 2-D convolution operator that is used to `blur' images and remove detail and noise. In this sense it
+is similar to the mean filter, but it uses a different kernel that represents the shape of a Gaussian (`bell-shaped') hump.
+
+
+![image](https://user-images.githubusercontent.com/95547363/158394312-47fc2b8f-38e4-4c17-a014-0f609745267b.png)
+
 
