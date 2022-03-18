@@ -340,3 +340,18 @@ All of that decision making and categorization stuff happens in the fully connec
 
 ![image](https://user-images.githubusercontent.com/95547363/158486121-290c2652-ca2f-4f58-b64f-7feca1dca52f.png)
 
+------------------------------------------------------
+
+Note:When we want to use GPU instead of CPU in running the codes in adition to change the runtime to GPU we should define it through the program as below:
+
+
+device = torch.device('cuda:0' if torch.cuda.is_available() else 'cpu')
+
+Then move neural net ,features , labels ,(trainig and test separately) to GPU as below codes:
+
+
+net.to(device)
+
+X = X.to(device)
+
+y = y.to(device)
