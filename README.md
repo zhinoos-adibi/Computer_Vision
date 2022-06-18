@@ -3,7 +3,7 @@
 In this repository the concepts and codes of deep learning based in image processing will be reviewed.
 some of the concepts that help to understanding of the subject will be explained.
 
-Main Refrence:
+**The Main Refrence of content and pictures is:**
 
 COURSE: A deep understanding of deep learning
 
@@ -15,8 +15,11 @@ TEACHER: Mike X Cohen, sincxpress.com
 
 COURSE URL: udemy.com/course/dudl/?couponCode=202108
 
+----------------------------------------------------------------
 
+I really appreciate  Mike X Cohen the teacher of **A deep understanding of deep learning**  which is avaiable in udemy.com/course/dudl/?couponCode=202108 for his greate course .
 
+-------------------------------------------------------------------------------
 **Kernel concept:**
 
 Kernel are filters that extract features from an image.The same kernel applied to different images will give different featuremaps. Use odd kernel sizes (3,5,7,etc)to have an exact center.
